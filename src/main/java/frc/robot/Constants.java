@@ -18,7 +18,7 @@ public final class Constants {
     public static final class Swerve {
         public static final int pigeonID = 1;
 
-        public static final COTSTalonFXSwerveConstants chosenModule =  
+        public static final COTSTalonFXSwerveConstants chosenModule = //Set to MK4i KrakenX60 Module
         COTSTalonFXSwerveConstants.SDS.MK4i.KrakenX60(COTSTalonFXSwerveConstants.SDS.MK4i.driveRatios.L1);
 
         /* Drivetrain Constants */
