@@ -18,8 +18,8 @@ public final class Constants {
     public static final class Swerve {
         public static final int pigeonID = 1;
 
-        public static final COTSTalonFXSwerveConstants chosenModule =  //TODO: @cfullagar need to double check the drive ratio
-        COTSTalonFXSwerveConstants.SDS.MK4i.KrakenX60(COTSTalonFXSwerveConstants.SDS.MK4i.driveRatios.L2);
+        public static final COTSTalonFXSwerveConstants chosenModule =  
+        COTSTalonFXSwerveConstants.SDS.MK4i.KrakenX60(COTSTalonFXSwerveConstants.SDS.MK4i.driveRatios.L1);
 
         /* Drivetrain Constants */
         public static final double trackWidth = Units.inchesToMeters(25.0); //Set as distance from center of FL wheel to FR
