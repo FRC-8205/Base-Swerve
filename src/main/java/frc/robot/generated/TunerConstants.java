@@ -57,8 +57,8 @@ public class TunerConstants {
     private static final Pigeon2Configuration pigeonConfigs = null;
 
     // Theoretical free speed (m/s) at 12v applied output;
-    // This needs to be tuned to your individual robot
-    //Original speed =3.92; changed to 2.5;
+    // MAX SPEED OF THE ROBOT
+    // Original speed = 3.92; changed to 2.5;
     public static final double kSpeedAt12VoltsMps = 2.5;
 
     // Every 1 rotation of the azimuth results in kCoupleRatio drive motor turns;
